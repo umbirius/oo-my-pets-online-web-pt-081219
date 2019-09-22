@@ -7,4 +7,8 @@ class Cat
     @owner = Owner.new("#{owner}") unless Owner.all.include?(owner)
   end 
   
+  def name 
+    self.name 
+  end 
+  
 end
