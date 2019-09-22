@@ -1,5 +1,4 @@
 class Owner
-  attr_accessor :owner
   
   @@all = []
   
@@ -43,7 +42,6 @@ class Owner
   
   def buy_cat(name)
     Cat.new(name,self)
-    
   end 
     
   
