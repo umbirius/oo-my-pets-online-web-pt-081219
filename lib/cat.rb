@@ -12,8 +12,8 @@ class Cat
     @name.dup.freeze
   end 
   
-  def owner 
-    @owner 
-  end
+  # def owner 
+  #   @owner 
+  # end
   
 end
