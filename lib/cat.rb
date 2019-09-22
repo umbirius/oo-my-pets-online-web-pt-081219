@@ -9,7 +9,7 @@ class Cat
   end 
   
   def name 
-    @name 
+    @name.dup.freeze
   end 
   
 end
