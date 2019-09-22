@@ -5,7 +5,6 @@ class Cat
   def initialize(name,owner)
     @name = name
     self.owner = owner
-    # @owner = Owner.new("#{owner}") unless Owner.all.include?(owner)
   end 
   
   def name 
