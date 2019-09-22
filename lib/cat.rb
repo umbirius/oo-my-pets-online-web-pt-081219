@@ -8,7 +8,7 @@ class Cat
   end 
   
   def name 
-    self.name 
+    @name 
   end 
   
 end
