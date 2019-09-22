@@ -8,8 +8,8 @@ class Cat
     # @owner = Owner.new("#{owner}") unless Owner.all.include?(owner)
   end 
   
-  # def name 
-  #   @name 
-  # end 
+  def name 
+    @name 
+  end 
   
 end
