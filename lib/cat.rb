@@ -13,7 +13,7 @@ class Cat
   end 
   
   def name 
-    @name.dup.freeze
+    @name
   end 
   
   def mood 
