@@ -34,7 +34,7 @@ class Owner
   end 
   
   def cats 
-    Cats.all.select {|cat| cat.owner.name == self.name }
+    Cat.all.select {|cat| cat.owner.name == self.name }
   end 
   
 end
