@@ -13,7 +13,7 @@ class Cat
     @name.dup.freeze
   end 
   
-  def mood(mood) 
+  def mood 
     @mood = mood
   end 
   
