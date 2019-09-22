@@ -6,14 +6,14 @@ class Cat
   def initialize(name,owner)
     @name = name
     @owner = owner
-    self.mood
+    @mood = "nervous"
   end 
   
   def name 
     @name.dup.freeze
   end 
   
-  def mood(mood="nervous") 
+  def mood(mood) 
     @mood = mood
   end 
   
